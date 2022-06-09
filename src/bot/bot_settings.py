@@ -1,0 +1,4 @@
+TOKEN = ''
+TOKEN_MSG = ''
+CHAT_IDS = []
+CHAT_IDS_MESSAGE = -1
