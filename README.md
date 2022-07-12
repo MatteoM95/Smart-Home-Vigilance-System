@@ -104,7 +104,7 @@ You can find some audio/video demos [here](assets/Example)
 ### Report
 
 
-Do you wanna know more? Please have a look at our [presentation](assets/Documentation/Slides_SHVS.pdf) or our technical [report](assets/Documentation/Smart_Home_Vigilance_System.pdf)!
+Do you wanna know more? Please have a look at the [presentation](assets/Documentation/Slides_SHVS.pdf) or the technical [report](assets/Documentation/Smart_Home_Vigilance_System.pdf)!
 
 
 <a name="contributors" />
