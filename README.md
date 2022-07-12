@@ -4,7 +4,7 @@
 Final Project of the course `Machine Learning for IOT` 2021/2022. 
 
 <p align="center">
-  <img src="assets/Example/human_detection.gif">
+  <img src="assets/Example/human_detectionResized.gif">
 </p>
 
 ### Contents
@@ -111,6 +111,6 @@ Do you wanna know more? Please have a look at our [presentation](https://github.
 
 ### Contributors
 
-<a href="https://github.com/francescodisalvo05/smart-surveillance-raspberrypi/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=francescodisalvo05/smart-surveillance-raspberrypi" />
+<a href="https://github.com//MatteoM95/Smart-Home-Vigilance-System/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=/MatteoM95/Smart-Home-Vigilance-System" />
 </a>
