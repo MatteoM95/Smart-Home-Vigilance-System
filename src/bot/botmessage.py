@@ -58,13 +58,13 @@ class Bot:
 
         if label == 'Human':
             emoticon_label = "📷"
+            caption = f"⚠️ *Intrusion Alert* ⚠️\n\n🕚 {timestamp} \n{emoticon_label} {label} presence detected"
         else:
             emoticon_label = "🔈"
+            caption = f"⚠️ *Intrusion Alert* ⚠️\n\n🕚 {timestamp} \n{emoticon_label} {label} Sound detected"
 
-        amsterdam = timezone('Europe/Amsterdam')
+        amsterdam = timezone('Europe/Rome')
         timestamp = datetime.now(amsterdam).strftime("%H:%M:%S")
-
-        caption = f"⚠️ *Intrusion Alert* ⚠️\n\n🕚 {timestamp} \n{emoticon_label} {label}"
         
         method = "sendPhoto"
         params = {'chat_id': bot_chatID, 'caption':caption, 'parse_mode':'Markdown'}

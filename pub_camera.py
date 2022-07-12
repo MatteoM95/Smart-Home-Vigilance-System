@@ -45,7 +45,7 @@ def start_recoring(publisher):
 				if weight == np.max(weights):
 					# display the detected boxes in the colour picture
 					cv2.rectangle(image, (xA, yA), (xB, yB),(0, 255, 0), 2)
-					amsterdam = timezone('Europe/Amsterdam')
+					amsterdam = timezone('Europe/Rome')
 					timestamp = datetime.now(amsterdam).strftime("%m-%d-%Y_%H:%M:%S")
 					img_path = f'assets/storage/photo/{timestamp}.png'
 

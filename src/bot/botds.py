@@ -5,7 +5,8 @@ import os.path
 import os
 import numpy as np
 
-from src.bot.bot_settings import * 
+#from src.bot.bot_settings import * 
+from bot_settings import * 
 from urllib.parse import uses_params
 from telegram.ext.callbackcontext import CallbackContext
 from datetime import datetime
@@ -93,8 +94,8 @@ class Bot:
 
     # message to send when /help is received
     def send_help(self, chatbot, update) -> None:
-        help_message =  'Authors: @GianlucaLM  @francescodis  @leomaggio \n'
-        help_message += 'Feel free to write us!\n'
+        help_message =  'Authors: @MatthewM95\n'
+        help_message += 'Feel free to contact me!\n'
         chatbot.message.reply_text(help_message, parse_mode = telegram.ParseMode.MARKDOWN)
        
     

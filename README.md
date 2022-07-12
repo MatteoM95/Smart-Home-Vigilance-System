@@ -1,8 +1,10 @@
-# Smart Surveillance on RaspberryPi
-asasd
-asxas
+# Smart Home Vigilance System on Raspberry-Pi
+
+### Overview
+Final Project of the course `Machine Learning for IOT` 2021/2022. 
+
 <p align="center">
-  <img src="assets/readme_utils/human_detection.gif">
+  <img src="assets/Example/Human_detectionResized.gif">
 </p>
 
 ### Contents
@@ -17,7 +19,7 @@ asxas
 
 <a name="description"/>
 
-## Description
+## General description
 The vast majority of modern surveillance solutions involve a camera and motion sensors, and just a few of them **use artificial intelligence algorithms**. In this context, we decided to build an **indoor video surveillance system** capable of **recognizing the presence of a human intrusion**, rather than mere movement. In this way, a photo of the intruder can be taken instantly, eliminating the burden of reviewing the footage.
 
 <a name="setup"/>
@@ -62,9 +64,16 @@ sudo apt install -y libportaudio2
 7. Setup bot: Fill the following constants in src/bot/bot_settings.py
 ```
 TOKEN = (str) bot's token
-TOKEN_MSG = (str) token of the bot that will manage the messages
+TOKEN_MSG = (str) token of the bot that will manage the messages (optional)
 CHAT_IDS = (list) list containing all the chat ids of the people that will receive the notifications
 ```
+
+### Setting up Telegram bot
+
+1. Search for the telegram bot `@SHVigilanceSystem_bot`
+2. Activate bot and send few void messages to start a chat
+3. visit the site:  https://api.telegram.org/bot5533493462:AAHlkAj_Cx2cDtI3i_LKtWaHZV6IwB4du78/getUpdates
+4. Retrieve the chat_id under the message field:  "from": { **"id": 123456789 **, "is_bot": false, "username": "MatthewM95", } 
 
 <a name="howtorun"/>
 
@@ -85,7 +94,7 @@ python sub_bot.py
 
 ### Demo
 
-You can find some audio/video demos [here](assets/readme_utils)
+You can find some audio/video demos [here](assets/Example)
 
 
 
@@ -102,6 +111,6 @@ Do you wanna know more? Please have a look at our [presentation](https://github.
 
 ### Contributors
 
-<a href="https://github.com/francescodisalvo05/smart-surveillance-raspberrypi/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=francescodisalvo05/smart-surveillance-raspberrypi" />
+<a href="https://github.com//MatteoM95/Smart-Home-Vigilance-System/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=/MatteoM95/Smart-Home-Vigilance-System" />
 </a>

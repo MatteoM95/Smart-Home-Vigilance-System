@@ -71,7 +71,7 @@ def record_audio(args, p, stream):
     stream.close() 
 
     if args.store_files:
-        amsterdam = timezone('Europe/Amsterdam')
+        amsterdam = timezone('Europe/Rome')
         FILENAME = 'audio_files/{}.wav'.format(str(datetime.now(amsterdam)).replace(" ","_"))
         wf = wave.open(FILENAME, 'wb')
     else:
