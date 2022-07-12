@@ -4,7 +4,7 @@
 Final Project of the course `Machine Learning for IOT` 2021/2022. 
 
 <p align="center">
-  <img src="assets/Example/Human_detectionResized.gif" width=100% height=100% />
+  <img src="assets/Example/Human_detectionResized.gif" width=85% height=85% />
 </p>
 
 ### Contents
