@@ -112,5 +112,5 @@ Do you wanna know more? Please have a look at the [presentation](assets/Document
 ### Contributors
 
 <a href="https://github.com//MatteoM95/Smart-Home-Vigilance-System/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=/MatteoM95/Smart-Home-Vigilance-System" />
+  <img src="https://contrib.rocks/image?repo=MatteoM95/Smart-Home-Vigilance-System" />
 </a>
