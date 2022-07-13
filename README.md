@@ -72,8 +72,8 @@ CHAT_IDS = (list) list containing all the chat ids of the people that will recei
 
 1. Search for the telegram bot `@SHVigilanceSystem_bot`
 2. Activate bot and send few void messages to start a chat
-3. visit the site:  https://api.telegram.org/bot5533493462:AAHlkAj_Cx2cDtI3i_LKtWaHZV6IwB4du78/getUpdates
-4. Retrieve the chat_id under the message field:  "from": { **"id": 123456789**, "is_bot": false, "username": "MatthewM95", } 
+3. visit the site:  https://api.telegram.org/botTOKEN/getUpdates, where TOKEN is the bot's token
+4. Retrieve the chat_id under the message field. Example:  "from": { **"id": 123456789**, "is_bot": false, "username": "MatthewM95", }. Then insert the chat_id [here](assets/bot/users.csv) in users.csv.
 
 <a name="howtorun"/>
 
