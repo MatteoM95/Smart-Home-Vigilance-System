@@ -4,7 +4,7 @@
 Final Project of the course `Machine Learning for IOT` 2021/2022. 
 
 <p align="center">
-  <img src="assets/Example/Human_detectionResized.gif">
+  <img src="assets/Example/Human_detectionResized.gif" width=85% height=85% />
 </p>
 
 ### Contents
@@ -72,8 +72,8 @@ CHAT_IDS = (list) list containing all the chat ids of the people that will recei
 
 1. Search for the telegram bot `@SHVigilanceSystem_bot`
 2. Activate bot and send few void messages to start a chat
-3. visit the site:  https://api.telegram.org/bot5533493462:AAHlkAj_Cx2cDtI3i_LKtWaHZV6IwB4du78/getUpdates
-4. Retrieve the chat_id under the message field:  "from": { **"id": 123456789 **, "is_bot": false, "username": "MatthewM95", } 
+3. visit the site:  https://api.telegram.org/botTOKEN/getUpdates, where TOKEN is the bot's token
+4. Retrieve the chat_id under the message field. Example:  "from": { **"id": 123456789**, "is_bot": false, "username": "MatthewM95", }. Then insert the chat_id [here](assets/bot/users.csv) in users.csv.
 
 <a name="howtorun"/>
 
@@ -104,7 +104,7 @@ You can find some audio/video demos [here](assets/Example)
 ### Report
 
 
-Do you wanna know more? Please have a look at our [presentation](https://github.com/francescodisalvo05/smart-surveillance-raspberrypi/blob/main/assets/files/Slides_SSSRP.pdf) or our technical [report](https://github.com/francescodisalvo05/smart-surveillance-raspberrypi/blob/main/assets/files/Smart_Surveillance_System_on_Raspberry_Pi.pdf)!
+Do you wanna know more? Please have a look at the [presentation](assets/Documentation/Slides_SHVS.pdf) or the technical [report](assets/Documentation/Smart_Home_Vigilance_System.pdf)!
 
 
 <a name="contributors" />
@@ -112,5 +112,5 @@ Do you wanna know more? Please have a look at our [presentation](https://github.
 ### Contributors
 
 <a href="https://github.com//MatteoM95/Smart-Home-Vigilance-System/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=/MatteoM95/Smart-Home-Vigilance-System" />
+  <img src="https://contrib.rocks/image?repo=MatteoM95/Smart-Home-Vigilance-System" />
 </a>
