@@ -72,7 +72,7 @@ CHAT_IDS = (list) list containing all the chat ids of the people that will recei
 
 1. Search for the telegram bot `@SHVigilanceSystem_bot` and `@SHVigilanceNotification_bot`
 2. Activate bot to start a chat.
-3. Retrieve the chat_id using `@myidbot`, then insert the chat_id [here](assets/bot/users.csv) in users.csv.
+3. Retrieve your chat_id using `@myidbot`, then insert the chat_id [here](assets/bot/users.csv) in users.csv and [here](https://github.com/MatteoM95/Smart-Home-Vigilance-System/blob/main/src/bot/bot_settings.py) in bot_setting.py inside the list.
 
 <a name="howtorun"/>
 
