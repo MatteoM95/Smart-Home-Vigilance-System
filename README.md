@@ -1,7 +1,7 @@
 # Smart Home Vigilance System on Raspberry-Pi
 
 ### Overview
-Final project of the course `Machine Learning for IOT` 2021/2022. saasx
+Final project of the course `Machine Learning for IOT` 2021/2022.
 
 <p align="center">
   <img src="assets/Example/Human_detectionResized.gif" width=85% height=85% />
