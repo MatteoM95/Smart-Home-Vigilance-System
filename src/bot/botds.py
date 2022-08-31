@@ -12,7 +12,6 @@ from telegram.ext.callbackcontext import CallbackContext
 from datetime import datetime
 from telegram.ext import Updater, CommandHandler
 
-
 class Bot:
 
     def __init__(self) -> None:
