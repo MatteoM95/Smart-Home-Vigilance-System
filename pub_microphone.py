@@ -17,7 +17,6 @@ from src.MQTT.DoSomething import DoSomething
 import logging
 logging.getLogger().setLevel(logging.INFO)
 
-
 def main(args):
 
     if args.store_files:
