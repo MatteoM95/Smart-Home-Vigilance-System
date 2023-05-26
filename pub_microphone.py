@@ -148,7 +148,7 @@ def make_inference(tf_mfccs, tflite_path):
 
 def publish_outcome(publisher, prediction, probability):
     
-    timestamp = datetime.now(timezone('Europe/Amsterdam')).strftime("%m-%d-%Y_%H:%M:%S")
+    timestamp = datetime.now(timezone('Europe/Rome')).strftime("%m-%d-%Y_%H:%M:%S")
 
     labels = ['Bark', 'Doorbell', 'Drill', 'Glass', 'Hammer', 'Speech']
 
