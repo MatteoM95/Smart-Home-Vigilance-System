@@ -27,9 +27,7 @@ def start_recoring(publisher):
 		for frame in camera.capture_continuous(rawCapture, format="bgr", use_video_port=True):
 
 			image = frame.array
-
 			
-
 			gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 			boxes, weights = hog.detectMultiScale(gray, winStride=(10,10))
 
@@ -45,8 +43,8 @@ def start_recoring(publisher):
 				if weight == np.max(weights):
 					# display the detected boxes in the colour picture
 					cv2.rectangle(image, (xA, yA), (xB, yB),(0, 255, 0), 2)
-					amsterdam = timezone('Europe/Rome')
-					timestamp = datetime.now(amsterdam).strftime("%m-%d-%Y_%H:%M:%S")
+					rome = timezone('Europe/Rome')
+					timestamp = datetime.now(rome).strftime("%m-%d-%Y_%H:%M:%S")
 					img_path = f'assets/storage/photo/{timestamp}.png'
 
 					cv2.imwrite(img_path, image)
